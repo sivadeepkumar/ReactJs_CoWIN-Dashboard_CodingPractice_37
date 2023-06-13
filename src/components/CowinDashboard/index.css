@@ -1,0 +1,42 @@
+*body {
+  margin: 0;
+}
+
+.header-cowin {
+  color: #2d87bb;
+}
+.cowin-img {
+  width: 50px;
+  height: 50px;
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.main-container {
+  height: 220vh;
+  background-color: #1c1c2b;
+  padding: 30px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+.loader-container {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+  font-size: 40px;
+}
+.failure-img {
+  height: 70%;
+  width: 70%;
+}
